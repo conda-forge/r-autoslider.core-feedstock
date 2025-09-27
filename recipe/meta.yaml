@@ -1,4 +1,4 @@
-{% set version = "0.2.8" %}
+{% set version = "0.3.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/autoslider.core_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/autoslider.core/autoslider.core_{{ version }}.tar.gz
-  sha256: 16851fcb60f00aed20d0a21eb8be64b0d32d5e27c43cbe7b20958035e9464804
+  sha256: 3d074a4b77b7ea1cb217a2ffd024f41f44c54ebce324d0bcf8ea172e3b32883d
 
 build:
   number: 0
